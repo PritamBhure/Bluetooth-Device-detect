@@ -21,6 +21,7 @@ class _Bluetooth_ScreenState extends State<Bluetooth_Screen> {
     WidgetsBinding.instance.addPostFrameCallback((_) => {initScan()});
   }
 
+
   Future<void> initScan() async {
     bluetoothPrint.startScan(timeout: Duration(seconds: 2));
 
