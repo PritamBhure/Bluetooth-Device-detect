@@ -7,6 +7,8 @@
 
 
 
+
+
     <application
         android:label="bluetooth"
         android:name="${applicationName}"
